@@ -1,0 +1,58 @@
+
+/* Font Sitio */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+/* Navbar */
+.logoFunko {
+    width: 100px;
+}
+
+.miFondo {
+    background-color: rgb(236, 234, 234);
+}
+
+header {
+    border-top: solid 20px #c1101a;
+}
+
+.miLink {
+    font-size: 25px;
+}
+
+.miLink:hover {
+    background-color: #c1101a;
+    color: #ffff;
+}
+
+/* Slide */
+.carousel-inner {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imageneSlide {
+    width: 100%;
+    height: 600px;
+}
+
+/* footer */
+footer {
+    background-color: #c1101a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    padding-right: 10px;
+}
