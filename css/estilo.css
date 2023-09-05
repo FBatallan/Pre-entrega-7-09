@@ -55,8 +55,13 @@ header {
     width: 33%;
 }
 
-.card img {
-    width: ;
+.imgCards {
+    width: 600px;
+    height: 550px;
+}
+
+.card-text {
+    text-align: center;
 }
 
 /* footer */
