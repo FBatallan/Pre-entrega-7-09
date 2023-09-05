@@ -37,6 +37,28 @@ header {
     height: 600px;
 }
 
+/* Seccion de texto index */
+
+#about {
+    text-align: center;
+    margin: 50px;
+}
+
+/* Cartas index */
+
+.contenedor {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card {
+    width: 33%;
+}
+
+.card img {
+    width: ;
+}
+
 /* footer */
 footer {
     background-color: #c1101a;
@@ -45,6 +67,7 @@ footer {
     padding: 10px;
     font-weight: bold;
     text-decoration: none;
+    margin-top: 40px;
 }
 
 ul li {
