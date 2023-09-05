@@ -45,19 +45,8 @@ header {
 }
 
 /* Cartas index */
-
-.contenedor {
-    display: flex;
-    justify-content: space-between; 
-}
-
 .card {
-    width: 33%;
-}
-
-.imgCards {
-    width: 600px;
-    height: 550px;
+    align-items: center;
 }
 
 .card-text {
@@ -83,4 +72,29 @@ ul li {
 li {
     list-style: none;
     padding-right: 10px;
+}
+
+
+/* Seccion Productos */
+
+.tituloPrincipal {
+    background-color: #da434b;
+    color: rgb(31, 31, 31);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.tituloPrincipal h2 {
+    font-size: 40px;
+}
+
+.estiloBtn {
+    background-color: #da434b;
+    color: white;
+}
+
+.estiloBtn:hover {
+    background-color: rgb(255, 255, 150);
+    color: black;
 }
