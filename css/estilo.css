@@ -58,7 +58,8 @@ header {
 
 /* footer */
 
-footer {
+.pie {
+    position: sticky;
     background-color: #c1101a;
     color: white;
     text-align: center;
@@ -68,12 +69,12 @@ footer {
     margin-top: 40px;
 }
 
-ul li {
+.pie ul li {
     display: inline-block;
     text-align: center;
 }
 
-li {
+.pie li {
     list-style: none;
     padding-right: 10px;
 }
@@ -132,5 +133,41 @@ li {
 
 .txtEdi p {
     font-size: 16px;
+}
+
+/* Ubicacion */
+
+.mapa {
+    margin-top: 10px ;
+    display: inline-block;
+    border: solid 3px black;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.ubiTxt {
+    margin: 12px 15px 12px 14px;
+    text-align: center;
+}
+
+.ubiTxt p {
+    text-align: center;
+}
+
+.ubiTxt h3 {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.ubiTxt h4 {
+    font-weight: bold;
+}
+
+.ubiTxt li {
+    list-style: none;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
