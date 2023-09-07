@@ -1,9 +1,9 @@
-
 /* Font Sitio */
 
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 /* Navbar */
 
 .logoFunko {
@@ -117,7 +117,7 @@ header {
 }
 
 .imgEdi {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -138,7 +138,7 @@ header {
 /* Ubicacion */
 
 .mapa {
-    margin-top: 10px ;
+    margin-top: 10px;
     display: inline-block;
     border: solid 3px black;
     border-radius: 5px;
@@ -171,3 +171,50 @@ header {
     margin-top: 10px;
 }
 
+/* seccion formulario de contacto */
+
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 15px auto;
+}
+
+.datosForm {
+    margin-bottom: 3%;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #640000;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="email"] {
+    height: 45px;
+}
+
+textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: rgb(255, 255, 150);
+    color: black;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: solid 2px black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    form {
+        width: 100%;
+    }
+}
